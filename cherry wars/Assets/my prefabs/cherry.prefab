@@ -42,6 +42,7 @@ GameObject:
   - 4: {fileID: 429250}
   - 54: {fileID: 5447692}
   - 135: {fileID: 13590792}
+  - 114: {fileID: 11423346}
   m_Layer: 0
   m_Name: cherry
   m_TagString: Projectile
@@ -134,6 +135,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 72
   m_CollisionDetection: 0
+--- !u!114 &11423346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29014cd42b6d273408e0ceefd336c0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minDuration: 8
+  maxDuration: 10
 --- !u!135 &13590792
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -174,6 +188,10 @@ Prefab:
       propertyPath: m_AngularDrag
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: explosion
+      value: 
+      objectReference: {fileID: 135572, guid: 8bce82ec95a8123468d0e44416f5195e, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 164942}

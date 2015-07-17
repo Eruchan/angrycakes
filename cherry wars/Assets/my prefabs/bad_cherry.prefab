@@ -14,7 +14,7 @@ GameObject:
   - 114: {fileID: 11482320}
   m_Layer: 0
   m_Name: bad_cherry
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,6 +101,14 @@ Prefab:
       propertyPath: explosion
       value: 
       objectReference: {fileID: 135572, guid: 8bce82ec95a8123468d0e44416f5195e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: Projectile
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 171926}
